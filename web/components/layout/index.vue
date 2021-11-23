@@ -9,7 +9,7 @@
       <title>Serverless Side Render for Vue</title>
       <slot name="viteClient" />
       <!-- 初始化移动端 rem 设置，如不需要可自行删除 -->
-      <slot name="remInitial" />
+      <!-- <slot name="remInitial" /> -->
       <!-- 用于通过配置插入自定义的 script 为了避免影响期望功能这块内容不做 escape，为了避免 xss 需要保证插入脚本代码的安全性  -->
       <slot name="customeHeadScript" />
       <slot name="cssInject" />
@@ -23,6 +23,36 @@
   </html>
 </template>
 
+<script>
+import '@wanwu/base-style';
+import '@wanwu/base-font-wwdz';
+
+export default {
+  props: ['ctx', 'config'],
+  data() {
+    return {
+      isClient: false
+    }
+  },
+  created () {},
+  methods: {
+    // pathToTitle(path) {
+    //   // 需要模糊匹配的话可以采用 path-to-regexp 之类的方式
+    //   return this.pathMap[path]
+    // }
+  },
+  mounted () {
+    this.isClient = true
+  }
+}
+</script>
+
 <style lang="less">
 @import './index.less';
+
+// 重置AppHeader默认基础样式
+body div.component__AppHeader{
+  width: 750px;
+}
+
 </style>

@@ -3,16 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.16.3",
     "@midwayjs/decorator": "^2.3.0",
     "@midwayjs/web": "^2.3.0",
+    "@wanwu/add-app-header": "^1.0.97",
+    "@wanwu/base-font-wwdz": "^1.0.34",
+    "@wanwu/base-style": "^2.1.10",
+    "@wanwu/base-vue-button": "^1.0.2",
+    "@wanwu/event-utils": "^2.1.0",
+    "@wanwu/get-comp-default-options": "^2.1.0",
     "egg": "^2.0.0",
     "egg-scripts": "^2.10.0",
-    "ssr-types": "^5.0.0",
     "ssr-core-vue": "^5.0.0",
+    "ssr-types": "^5.0.0",
     "swiper": "^5.0.0",
     "vue": "^2.0.0",
     "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^2.0.0",
+    "vue-runtime-helpers": "^1.1.2",
+    "vue-simple-spinner": "^1.2.10",
+    "vue-spinkit": "^1.7.11",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
@@ -20,8 +30,8 @@
     "cross-env": "^7.0.3",
     "eslint-config-standard-vue-ts": "^1.0.5",
     "ssr": "^5.0.0",
-    "ssr-plugin-vue": "^5.0.0",
     "ssr-plugin-midway": "^5.0.0",
+    "ssr-plugin-vue": "^5.0.0",
     "typescript": "^3.9.7"
   },
   "scripts": {

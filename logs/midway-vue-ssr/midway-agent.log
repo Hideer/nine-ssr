@@ -1,3 +1,0 @@
-2021-11-23 11:54:32,452 INFO 17682 [egg:logger] init all loggers with options: {"dir":"/Users/yumengcheng/Study/nine-ssr/logs/midway-vue-ssr","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-11-23 11:54:32,452 INFO 17682 [egg:core] dump config after load, 14ms
-2021-11-23 11:54:32,546 INFO 17682 [egg:core] dump config after ready, 4ms
