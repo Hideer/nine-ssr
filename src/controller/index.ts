@@ -28,8 +28,9 @@ export class Index {
       this.ctx.apiService = this.apiService
       this.ctx.apiDeatilservice = this.apiDeatilservice
       const stream = await render<Readable>(this.ctx, {
-        stream: true
-      })
+        stream: true,
+        // whiteList: [/\.(css|less|sass|scss)|@babel\/runtime\/helpers\/esm\/toConsumableArray.js$/],
+      });
       this.ctx.body = stream
     } catch (error) {
       console.log(error)
