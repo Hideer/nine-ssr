@@ -1,0 +1,14 @@
+2021-11-23 11:54:32,564 INFO 17682 [egg:logger] init all loggers with options: {"dir":"/Users/yumengcheng/Study/nine-ssr/logs/midway-vue-ssr","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-23 11:54:32,564 INFO 17682 [egg:core] dump config after load, 6ms
+2021-11-23 11:54:32,625 INFO 17682 [egg-multipart] stream mode enable
+2021-11-23 11:54:32,688 INFO 17682 [egg-static] starting static serve / -> /Users/yumengcheng/Study/nine-ssr/build
+2021-11-23 11:54:32,688 INFO 17682 [egg-static] starting static serve / -> /Users/yumengcheng/Study/nine-ssr/public
+2021-11-23 11:54:32,690 INFO 17682 [egg-security] use csrf middleware
+2021-11-23 11:54:32,691 INFO 17682 [egg-security] use methodnoallow middleware
+2021-11-23 11:54:32,691 INFO 17682 [egg-security] use noopen middleware
+2021-11-23 11:54:32,691 INFO 17682 [egg-security] use nosniff middleware
+2021-11-23 11:54:32,692 INFO 17682 [egg-security] use xssProtection middleware
+2021-11-23 11:54:32,692 INFO 17682 [egg-security] use xframe middleware
+2021-11-23 11:54:32,692 INFO 17682 [egg-security] use dta middleware
+2021-11-23 11:54:32,692 INFO 17682 [egg-security] compose 7 middlewares into one security middleware
+2021-11-23 11:54:32,697 INFO 17682 [egg:core] dump config after ready, 2ms
