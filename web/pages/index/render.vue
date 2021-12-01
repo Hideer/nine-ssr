@@ -29,6 +29,10 @@ import { mapState } from 'vuex'
 import Slider from '@/components/slider/index.vue'
 import Rectangle from '@/components/rectangle/index.vue'
 import Search from '@/components/search/index.vue'
+// import { AppHeader } from '@wanwu/add-app-header';
+// import WWButton from '@wanwu/base-vue-button';
+
+
 
 const { AppHeader }  = __isBrowser__ ? require('@wanwu/add-app-header') : { AppHeader:{} } // true
 // import WWButton from '@wanwu/base-vue-button';
