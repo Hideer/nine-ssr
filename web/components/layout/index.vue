@@ -51,8 +51,8 @@ export default {
 @import './index.less';
 
 // 重置AppHeader默认基础样式
-body div.component__AppHeader{
+div.component__AppHeader.appHeader{
   width: 750px;
+  left: auto;
 }
-
 </style>

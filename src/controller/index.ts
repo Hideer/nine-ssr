@@ -3,10 +3,9 @@ import { Controller, Get, Provide, Inject } from '@midwayjs/decorator'
 import { Context } from 'egg'
 import { render } from 'ssr-core-vue'
 import { IApiService, IApiDetailService } from '../interface'
-
 interface IEggContext extends Context {
-  apiService: IApiService
-  apiDeatilservice: IApiDetailService
+  apiService: IApiService;
+  apiDeatilservice: IApiDetailService;
 }
 
 @Provide()
